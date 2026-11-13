@@ -1,0 +1,18 @@
+[project]
+name = "ai-skin-specialist"
+version = "0.1.0"
+description = "Multimodal AI clinical assistant for skin consultations using voice, image, and video analysis powered by Groq and Deepgram."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=0.122.0",
+    "deepgram-sdk>=7.7.0",
+    "gradio>=6.24.0",
+    "groq>=1.6.0",
+    "openai>=3.3.0",
+    "opencv-python>=5.0.0.93",
+    "pyaudio>=0.2.14",
+    "pydub>=0.25.1",
+    "python-dotenv>=1.2.3",
+    "speechrecognition>=3.17.0",
+]
